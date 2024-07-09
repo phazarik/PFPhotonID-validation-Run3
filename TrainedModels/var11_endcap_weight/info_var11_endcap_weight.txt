@@ -1,0 +1,31 @@
+MODEL INFORMATION:
+Name = var11_endcap_weight
+Sequential : 128/64/64/32/16/1
+batch size = 1024, epochs=50
+
+LIST OF TRAINING VARIABLES :
+1. hadTowOverEm
+2. trkSumPtHollowConeDR03
+3. ecalRecHitSumEtConeDR03
+4. sigmaIetaIeta
+5. SigmaIEtaIEtaFull5x5
+6. SigmaIEtaIPhiFull5x5
+7. phoEcalPFClusterIso
+8. phoHcalPFClusterIso
+9. hasPixelSeed
+10. R9Full5x5
+11. hcalTowerSumEtConeDR03
+
+NORMALISATION PARAMETERS (min-max) :
+maxValues =[0.14999598, 5764.791, 1078.8676, 0.074436404, 0.08065124, 0.0033847603, 1080.1742, 732.8617, 1.0, 22.745693, 432.9531, ]
+minValues =[0.0, 0.0, 0.0, 0.0, 0.0, -0.002335634, 0.0, 0.0, 0.0, 0.11819375, 0.067593366, ]
+
+NUMBER OF PHOTONS :
+Total number of Signal Photons : 107623 = 53811 (train) + 53812 (test)
+Total number of Background Photons : 119666 = 59833 (train) + 59833 (test)
+Contribution from QCD file = 55530 (46%)
+Contribution from TauGun file = 64136 (54%)
+
+ RESULT :
+Signal Efficiency (PF) = 66%
+Background Rejection (PF) = 80%

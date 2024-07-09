@@ -1,0 +1,11 @@
+*~
+*so
+*pcm
+*.root
+*.d
+*pyc
+*#
+*zip
+*gz
+*.csv
+*.ipynb_checkpoints

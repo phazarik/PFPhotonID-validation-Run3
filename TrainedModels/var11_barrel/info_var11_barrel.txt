@@ -1,0 +1,31 @@
+MODEL INFORMATION:
+Name = var11_barrel
+Sequential : 128/64/64/32/16/1
+batch size = 1024, epochs=50
+
+LIST OF TRAINING VARIABLES :
+1. hadTowOverEm
+2. trkSumPtHollowConeDR03
+3. ecalRecHitSumEtConeDR03
+4. sigmaIetaIeta
+5. SigmaIEtaIEtaFull5x5
+6. SigmaIEtaIPhiFull5x5
+7. phoEcalPFClusterIso
+8. phoHcalPFClusterIso
+9. hasPixelSeed
+10. R9Full5x5
+11. hcalTowerSumEtConeDR03
+
+NORMALISATION PARAMETERS (min-max) :
+maxValues =[0.14999817, 85232.2, 1515.0629, 0.024192091, 0.030323075, 0.0005338515, 1512.3279, 1771.452, 1.0, 28.155016, 1600.384, ]
+minValues =[0.0, 0.0, 0.0, 0.0, 4.734276e-05, -0.0005914965, 0.0, 0.0, 0.0, 0.14421068, 0.0, ]
+
+NUMBER OF PHOTONS :
+Total number of Signal Photons : 168058 = 84029 (train) + 84029 (test)
+Total number of Background Photons : 264547 = 132273 (train) + 132274 (test)
+Contribution from QCD file = 135750 (51%)
+Contribution from TauGun file = 128797 (49%)
+
+ RESULT :
+Signal Efficiency (PF) = 82%
+Background Rejection (PF) = 80%
